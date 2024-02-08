@@ -17,12 +17,12 @@ final IconData icon;
 
  const  appMenuItems = <MenuItem>[
 
-MenuItem(title: "Botones",
+MenuItem(title: "Buttons",
  subtitle: "Visualizar botones en Flutter", 
- link: "/botones", 
+ link: "/Buttons", 
  icon: Icons.smart_button_rounded),
 
- MenuItem(title: "Tarjetas",
+ MenuItem(title: "Cards",
  subtitle: "Un Contenedor estilizado", 
  link: "/Cards", 
  icon: Icons.credit_card),
