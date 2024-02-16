@@ -25,7 +25,7 @@ class _ButtonsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    final colors=Theme.of(context).colorScheme;
+   // final colors=Theme.of(context).colorScheme;
     
     return SizedBox(
       width: double.infinity,
@@ -52,7 +52,7 @@ class _ButtonsView extends StatelessWidget {
             TextButton.icon(onPressed: (){}, icon: const Icon(Icons.add_home_work_outlined), label: const Text("Text Button")),
             IconButton(onPressed: (){}, icon: const Icon(Icons.app_registration_rounded)),
             IconButton(onPressed: (){}, icon: const Icon(Icons.app_registration_rounded), style: const ButtonStyle(backgroundColor:MaterialStatePropertyAll(Colors.purple))),
-            CustomButton(),
+            const CustomButton(),
 
           ],
         ),
