@@ -27,6 +27,9 @@ MenuItem(title: "Buttons",
  link: "/Cards", 
  icon: Icons.credit_card),
 
-
+ MenuItem(title: "ProgressIndicators",
+ subtitle: "Generales y Controlados", 
+ link: "/progress", 
+ icon: Icons.refresh_rounded),
 
 ];  
