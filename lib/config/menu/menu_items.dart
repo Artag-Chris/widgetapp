@@ -32,4 +32,8 @@ MenuItem(title: "Buttons",
  link: "/progress", 
  icon: Icons.refresh_rounded),
 
+ MenuItem(title: "SnackBars y Dialogs",
+ subtitle: "Indicadores en Pantallas", 
+ link: "/snacksbars", 
+ icon: Icons.info_outline_rounded),
 ];  
