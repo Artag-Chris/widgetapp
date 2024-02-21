@@ -41,4 +41,9 @@ MenuItem(title: "Buttons",
  subtitle: "Statefull Widget animated", 
  link: "/animated", 
  icon: Icons.check_box_outline_blank_rounded),
+
+  MenuItem(title: "UI Controls + Expansion Panels",
+ subtitle: "Controles de Interfaz de flutter" , 
+ link: "/ui-controls", 
+ icon: Icons.car_rental_outlined),
 ];  
