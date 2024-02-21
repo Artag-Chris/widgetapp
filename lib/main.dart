@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:widgetapp/config/theme/app_theme.dart';
+import 'config/router/app_router.dart';
+
 
 void main() {
   runApp(const MainApp());
@@ -9,13 +12,12 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp.router(
+      title: "Chris el mejor",
+      routerConfig: appRouter,
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+      theme: AppTheme(selectedColor: 1).getTheme(),
+     
     );
   } 
 }
