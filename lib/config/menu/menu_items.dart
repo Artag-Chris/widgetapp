@@ -36,4 +36,9 @@ MenuItem(title: "Buttons",
  subtitle: "Indicadores en Pantallas", 
  link: "/snacksbars", 
  icon: Icons.info_outline_rounded),
+
+ MenuItem(title: "Animated Container",
+ subtitle: "Statefull Widget animated", 
+ link: "/animated", 
+ icon: Icons.check_box_outline_blank_rounded),
 ];  
