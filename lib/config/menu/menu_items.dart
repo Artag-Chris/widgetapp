@@ -46,4 +46,9 @@ MenuItem(title: "Buttons",
  subtitle: "Controles de Interfaz de flutter" , 
  link: "/ui-controls", 
  icon: Icons.car_rental_outlined),
+
+ MenuItem(title: "Tutorials",
+ subtitle: "Tutoriales de Flutter" , 
+ link: "/tutorial", 
+ icon: Icons.accessible_forward_sharp),
 ];  
