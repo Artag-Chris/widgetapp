@@ -51,4 +51,9 @@ MenuItem(title: "Buttons",
  subtitle: "Tutoriales de Flutter" , 
  link: "/tutorial", 
  icon: Icons.accessible_forward_sharp),
+
+ MenuItem(title: "Infinite scroll y pull to refresh" ,
+ subtitle: "scroll de imagenes infinitas" , 
+ link: "/infinite", 
+ icon: Icons.list_alt_outlined),
 ];  
