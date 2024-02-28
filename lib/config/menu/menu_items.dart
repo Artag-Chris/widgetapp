@@ -56,4 +56,9 @@ MenuItem(title: "Buttons",
  subtitle: "scroll de imagenes infinitas" , 
  link: "/infinite", 
  icon: Icons.list_alt_outlined),
+
+MenuItem(title: "River Pub Practice" ,
+ subtitle: "parte contable" , 
+ link: "/counter", 
+ icon: Icons.countertops_outlined),
 ];  
