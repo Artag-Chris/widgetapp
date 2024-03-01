@@ -61,4 +61,9 @@ MenuItem(title: "River Pub Practice" ,
  subtitle: "parte contable" , 
  link: "/counter", 
  icon: Icons.countertops_outlined),
+
+ MenuItem(title: "cambiar tema de la aplicacion" ,
+ subtitle: "usando riverpod provider" , 
+ link: "/theme-change", 
+ icon: Icons.format_paint_outlined),
 ];  
