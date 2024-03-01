@@ -41,4 +41,29 @@ MenuItem(title: "Buttons",
  subtitle: "Statefull Widget animated", 
  link: "/animated", 
  icon: Icons.check_box_outline_blank_rounded),
+
+  MenuItem(title: "UI Controls + Expansion Panels",
+ subtitle: "Controles de Interfaz de flutter" , 
+ link: "/ui-controls", 
+ icon: Icons.car_rental_outlined),
+
+ MenuItem(title: "Tutorials",
+ subtitle: "Tutoriales de Flutter" , 
+ link: "/tutorial", 
+ icon: Icons.accessible_forward_sharp),
+
+ MenuItem(title: "Infinite scroll y pull to refresh" ,
+ subtitle: "scroll de imagenes infinitas" , 
+ link: "/infinite", 
+ icon: Icons.list_alt_outlined),
+
+MenuItem(title: "River Pub Practice" ,
+ subtitle: "parte contable" , 
+ link: "/counter", 
+ icon: Icons.countertops_outlined),
+
+ MenuItem(title: "cambiar tema de la aplicacion" ,
+ subtitle: "usando riverpod provider" , 
+ link: "/theme-change", 
+ icon: Icons.format_paint_outlined),
 ];  
