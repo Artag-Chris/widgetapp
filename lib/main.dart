@@ -14,14 +14,16 @@ class MainApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context,ref) {
 
-final selectedColor= ref.watch(selectedColorProvider);
-final isDarkMode= ref.watch(themeProvider);
+//final selectedColor= ref.watch(selectedColorProvider);
+//final isDarkMode= ref.watch(themeProvider);
+final AppTheme appTheme= ref.watch(themeNotifierProvider);
+
 
     return MaterialApp.router(
       title: "Chris el mejor",
       routerConfig: appRouter,
       debugShowCheckedModeBanner: false,
-      theme: AppTheme(selectedColor: selectedColor,isDarkMode: isDarkMode).getTheme(),
+      theme: appTheme.getTheme(),
     );
   }
 }
